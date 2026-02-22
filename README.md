@@ -49,6 +49,38 @@ Dieses System wurde von **Jana Janine Servais** entworfen, um die Lücke zwische
 ### 📂 JAD Folder & DATA STRUCTURE
 
 ```
+# Janine Avation Dashboard JAD Project Structure
+
+Das Projekt folgt einer strikten Trennung von Belangen (Separation of Concerns), um maximale Performance und Wartbarkeit in .NET 10 zu gewährleisten.
+
+```text
+janine_aviation/
+├── Controllers/
+│   └── AdminController.cs       # Steuerung der HTTP-Endpunkte (Suche & Paginierung)
+├── Models/
+│   ├── Flight.cs                # Datenmodell der Flugbucheinträge
+│   └── AviationContext.cs       # Datenbank-Kontext für Entity Framework Core
+├── Services/
+│   ├── IAviationService.cs      # Interface-Vertrag für die Service-Logik
+│   └── AviationServices.cs      # Implementierung von Skip/Take und Paged Search
+├── Views/
+│   ├── SuperUser/
+│   │   └── SuperUser.cshtml     # Haupt-Dashboard (UI, CSS-Neon-Glow, JS-Logik)
+│   └── Shared/
+│       └── _Layout.cshtml       # Basis-Layout der Web-Applikation
+├── wwwroot/                     # Statische Ressourcen
+│   ├── css/
+│   │   └── site.css             # Terminal-Styles und globale Design-Vorgaben
+│   ├── js/
+│   │   └── site.js              # Globale JavaScript-Funktionen
+│   └── lib/                     # Externe Bibliotheken (Bootstrap, etc.)
+├── appsettings.json             # Konfiguration (Datenbank-Verbindungszeichenfolge)
+└── Program.cs                   # Applikations-Startup und Dependency Injection
+
+````
+Upcoming
+# JAD Console
+```
 JAD.Console.AI
 │
 ├── 01_FlightPlan
