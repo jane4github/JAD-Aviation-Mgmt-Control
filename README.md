@@ -42,47 +42,53 @@ Dieses System wurde von **Jana Janine Servais** entworfen, um die Lücke zwische
 ---
 *Dokumentiert und versiegelt durch das JAD-Entwicklungsprotokoll.*
 
-# DATA STRUCTURE______________
+### 📂 DATA STRUCTURE
 
-JAD.Console.Solution
-*
-*│
-*├── [Core]
-**│   ├── FlightControl.cs          // Primäre Flugsteuerungsbefehle
-**│   └── TelemetryStream.cs        // Interface zu Sensoren/Sim (Sektion 4)
-*│
-*├── [Intelligence]
-**│   ├── BehaviorAnalyzer.cs       // KI: Lernt & Vergleicht Muster (Sektion 1 & 2)
-**│   ├── AnomalyEngine.cs          // Erkennt Trudeln/Abweichung (Sektion 3)
-**│   └── DecisionTree.cs           // Logik für das "Sicherheits-Zeitfenster"
-*│
-*├── [Safety_CDM]
-**│   ├── GeoProcessor.cs           // Sucht "BrownFields" via Map-API (Sektion 5)
-**│   ├── RiskEvaluator.cs          // Berechnet Collateral Damage Score
-**│   └── EmergencyProtocol.cs      // Automatisiertes MAYDAY & Autoland-Initiierung
-*│
-*└── [Data_Access]
-**    ├── SQL_Connector.cs          // Handhabt asynchrone DB-Schreibvorgänge
-**    └── BlackBox_Logger.cs        // Unveränderbare Protokollierung (Audit-Trail)
-
-# FOLDER & FILE STRUCTURE______________
+```
 JAD.Console.AI
-*
-*│
-*├── 01_FlightPlan
-**│   ├── FlightPlanManager.cs
-**│   └── RouteValidator.cs (Vergleich: Filed vs. Actual)
-*├── 02_CoPilot
-**│   ├── Brain.cs (Die neuronale Kernlogik)
-**│   └── VoiceInterface.cs (Interaktion mit dem Piloten)
-*├── 03_FailureRisk
-**│   ├── AnomalyDetector.cs
-**│   └── ProceduresDB.cs (Digitale Checklisten für Notfälle)
-*├── 04_Telemetry
-**│   ├── TelemetryStream.cs (High-Speed Data Ingest)
-**│   └── SensorFusion.cs (Kombiniert GPS + IMU Daten)
-*└── 05_CDM
-**    ├── Scorer.cs (Berechnet Collateral Damage Score)
-**    └── TerrainAnalyzer.cs (Schnittstelle zu Geodaten)
+│
+├── 01_FlightPlan
+│   ├── FlightPlanManager.cs
+│   └── RouteValidator.cs       // Comparison: Filed vs. Actual
+│
+├── 02_CoPilot
+│   ├── Brain.cs                // Neural Core Logic
+│   └── VoiceInterface.cs       // Pilot-AI Interaction
+│
+├── 03_FailureRisk
+│   ├── AnomalyDetector.cs
+│   └── ProceduresDB.cs         // Digital Emergency Checklists
+│
+├── 04_Telemetry
+│   ├── TelemetryStream.cs      // High-Speed Data Ingest
+│   └── SensorFusion.cs         // Combined GPS + IMU Data
+│
+└── 05_CDM
+    ├── Scorer.cs               // Collateral Damage Scoring
+    └── TerrainAnalyzer.cs      // Geospatial Interface
+```
+### 📂 DATA STRUCTURE
+```
+JAD.Console.AI
+│
+├── 01_FlightPlan
+│   ├── FlightPlanManager.cs
+│   └── RouteValidator.cs       // Comparison: Filed vs. Actual
+│
+├── 02_CoPilot
+│   ├── Brain.cs                // Neural Core Logic
+│   └── VoiceInterface.cs       // Pilot-AI Interaction
+│
+├── 03_FailureRisk
+│   ├── AnomalyDetector.cs
+│   └── ProceduresDB.cs         // Digital Emergency Checklists
+│
+├── 04_Telemetry
+│   ├── TelemetryStream.cs      // High-Speed Data Ingest
+│   └── SensorFusion.cs         // Combined GPS + IMU Data
+│
+└── 05_CDM
+    ├── Scorer.cs               // Collateral Damage Scoring
+    └── TerrainAnalyzer.cs      // Geospatial Interface
 
-
+```
