@@ -1,0 +1,688 @@
+25.01.2026 21:59:08: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+25.01.2026 21:59:08: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+25.01.2026 22:17:48: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+25.01.2026 22:17:48: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+25.01.2026 23:15:49: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+25.01.2026 23:15:49: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+25.01.2026 23:56:28: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+26.01.2026 02:38:07: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 02:38:18: Fehler im Inject Endpoint: One or more errors occurred. (Object reference not set to an instance of an object.)
+Fehler im Inject Endpoint: One or more errors occurred. (Object reference not set to an instance of an object.)
+26.01.2026 02:39:20: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 02:39:39: Fehler im Inject Endpoint: One or more errors occurred. (Object reference not set to an instance of an object.)
+Fehler im Inject Endpoint: One or more errors occurred. (Object reference not set to an instance of an object.)
+26.01.2026 02:44:17: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 02:44:22: Fehler im Inject Endpoint: One or more errors occurred. (Object reference not set to an instance of an object.)
+Fehler im Inject Endpoint: One or more errors occurred. (Object reference not set to an instance of an object.)
+26.01.2026 10:22:45: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 10:22:45: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+26.01.2026 10:36:46: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 10:36:47: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+26.01.2026 16:50:48: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 16:50:49: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 16:51:12: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 16:51:12: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 16:51:58: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 16:51:58: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:10:07: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:10:07: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:25:22: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:25:23: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:26:39: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:26:39: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:27:00: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:27:00: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:35:32: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:35:33: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:38:53: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:38:53: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:40:10: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:40:10: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:44:55: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:44:55: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:46:35: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:46:36: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:48:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:48:10: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:53:12: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:53:12: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:53:25: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:53:25: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:54:49: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:54:49: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 17:57:47: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 17:57:48: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:01:24: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:01:24: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:05:48: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:05:48: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:07:58: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:07:59: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:09:37: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:09:37: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:11:04: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:11:04: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:11:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:11:09: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:12:17: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:12:17: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:13:53: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:13:54: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:15:21: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:15:21: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:16:05: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:16:05: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:17:57: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:17:57: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+26.01.2026 18:57:28: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 18:57:28: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+26.01.2026 18:57:35: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+26.01.2026 23:15:11: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 23:15:11: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+26.01.2026 23:15:35: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+26.01.2026 23:28:52: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+26.01.2026 23:28:52: Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+Fehler im Inject Endpoint: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+27.01.2026 02:31:44: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+27.01.2026 02:31:44: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+27.01.2026 04:17:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+27.01.2026 04:17:09: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+27.01.2026 04:17:15: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+28.01.2026 01:28:53: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+28.01.2026 01:28:53: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+28.01.2026 02:41:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+28.01.2026 02:41:10: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+28.01.2026 02:41:22: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+28.01.2026 03:55:48: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+28.01.2026 03:55:48: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:10:01: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:10:01: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:13:53: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:13:53: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:15:43: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:15:43: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:18:52: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:18:52: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:19:44: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:19:44: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:25:59: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:25:59: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:27:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:27:09: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:28:18: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:28:18: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:29:26: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:29:26: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:30:32: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:30:32: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:31:24: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:31:24: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:32:05: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:32:05: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:33:23: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:33:23: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:34:12: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:34:12: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:34:40: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:34:40: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:35:18: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:35:18: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:38:01: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:38:01: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:38:59: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:38:59: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:42:02: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:42:02: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:42:39: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:42:39: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:44:42: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:44:42: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:58:29: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:58:29: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 08:59:39: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 08:59:39: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:01:48: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:01:48: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:02:15: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:02:15: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:02:52: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:02:52: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:04:48: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:04:48: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:08:20: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:08:20: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:09:31: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:09:31: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:10:27: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:10:27: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:15:32: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:15:32: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:17:39: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:17:39: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:18:23: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:18:23: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:19:28: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:19:28: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:23:10: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:23:10: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:28:40: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:28:40: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:29:21: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:29:21: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:30:02: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:30:02: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:31:29: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:31:29: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:33:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:33:09: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:34:04: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:34:04: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:35:26: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:35:26: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:36:59: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:36:59: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:40:13: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:40:13: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:41:37: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:41:37: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:44:30: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:44:30: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:45:06: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:45:06: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:47:03: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:47:03: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:48:19: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:48:19: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 09:53:13: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 09:53:13: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:00:02: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:00:02: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:01:58: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:01:58: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:02:31: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:02:31: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:04:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:04:09: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:06:49: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:06:49: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:07:33: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:07:33: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:10:41: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:10:41: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:11:14: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:11:14: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:12:17: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:12:17: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:13:06: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:13:06: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:14:16: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:14:16: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:16:05: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:16:05: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:16:26: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:16:26: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:19:21: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:19:21: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:25:04: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:25:04: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:30:00: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:30:00: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 10:31:08: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 10:31:08: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:11:46: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:11:46: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:12:22: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:12:22: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:14:32: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:14:32: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:15:57: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:15:57: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:24:52: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:24:53: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:25:31: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:25:31: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:26:51: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:26:51: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:27:22: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:27:22: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:28:04: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:28:04: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:29:49: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:29:49: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:33:34: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:33:34: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:34:51: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:34:51: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:36:29: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:36:29: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:39:13: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:39:13: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:44:36: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:44:36: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:46:58: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:46:58: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:48:05: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:48:05: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:52:19: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:52:19: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 12:52:51: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 12:52:51: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:06:45: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:06:45: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:09:54: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:09:54: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:11:26: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:11:26: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:12:47: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:12:47: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:21:00: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:21:00: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:46:18: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:46:18: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:48:35: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:48:35: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:50:56: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:50:56: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 13:59:01: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 13:59:01: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 14:00:38: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 14:00:38: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 14:02:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 14:02:09: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+30.01.2026 14:14:11: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+30.01.2026 14:14:11: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:28:03: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:28:03: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:28:40: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:28:40: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:29:34: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:29:34: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:31:20: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:31:20: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:34:09: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:34:09: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:36:12: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:36:12: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:36:49: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:36:49: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:38:06: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:38:06: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:39:08: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:39:08: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:42:35: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:42:35: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:44:12: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:44:12: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:44:46: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:44:46: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:45:22: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:45:22: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:46:12: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:46:12: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 00:51:33: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 00:51:33: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 02:12:47: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+31.01.2026 02:12:47: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+31.01.2026 02:13:11: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+02.02.2026 02:42:41: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+02.02.2026 02:42:41: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+02.02.2026 02:43:34: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+02.02.2026 02:44:32: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+02.02.2026 02:44:32: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+02.02.2026 02:44:54: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+02.02.2026 10:06:47: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+02.02.2026 10:06:47: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+02.02.2026 10:07:45: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+03.02.2026 02:15:48: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+03.02.2026 02:15:48: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+03.02.2026 02:16:23: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+04.02.2026 04:29:24: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+04.02.2026 04:29:24: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+04.02.2026 04:30:24: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+05.02.2026 10:35:54: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+05.02.2026 10:35:54: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+05.02.2026 14:13:11: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+05.02.2026 14:13:12: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+05.02.2026 14:21:16: Purge Endpoint aufgerufen
+Purge Endpoint aufgerufen
+2/19/2026 5:23:56 PM: Inject Endpoint aufgerufen
+Inject Endpoint aufgerufen
+2/19/2026 5:23:56 PM: Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
+Fehler im Inject Endpoint: An error occurred while saving the entity changes. See the inner exception for details.
