@@ -42,7 +42,7 @@ Dieses System wurde von **Jana Janine Servais** entworfen, um die Lücke zwische
 ---
 *Dokumentiert und versiegelt durch das JAD-Entwicklungsprotokoll.*
 
-### 📂 DATA STRUCTURE
+### 📂 JAD Folder & DATA STRUCTURE
 
 ```
 JAD.Console.AI
@@ -67,7 +67,7 @@ JAD.Console.AI
     ├── Scorer.cs               // Collateral Damage Scoring
     └── TerrainAnalyzer.cs      // Geospatial Interface
 ```
-### 📂 DATA STRUCTURE
+### 📂 AI Folder & DATA STRUCTURE
 ```
 JAD.Console.AI
 │
