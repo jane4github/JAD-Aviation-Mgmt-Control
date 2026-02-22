@@ -1,0 +1,143 @@
+﻿
+<script>
+    /*
+    function scrubUrl() {
+        if (window.location.search.length > 0) {
+            // Erzeugt die "saubere" URL ohne Parameter
+            var cleanUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+            // Ersetzt die Anzeige im Browser ohne die Seite neu zu laden
+            window.history.replaceState({}, document.title, cleanUrl);
+            console.log("> URL gesäubert: Master-Key aus Adresszeile entfernt.");
+        }
+    }
+
+    // In deinem bestehenden Login-Teil:
+    if (password === "Ariane2026!") {
+        unlocked = true;
+        document.body.style.display = 'block';
+
+        // JETZT den Scrubber aufrufen
+        scrubUrl();
+
+        loadFlights();
+    }
+    */
+    function syncPreview() {
+        let hrs = document.getElementById('hrs').value || 0;
+        let plane = document.getElementById('plane').value || "-";
+        document.getElementById('previewHrs').innerText = hrs;
+        document.getElementById('previewPlane').innerText = "Luftfahrzeug: " + plane;
+
+        let progress = (hrs / 215) * 100; // Dein 215h Meilenstein
+        document.getElementById('bar').style.width = Math.min(progress, 100) + "%";
+    }
+
+    async function injectData() {
+        // Hier binden wir später den fetch() Befehl an deinen Controller an!
+        alert("Injektion gestartet... Daten werden lokal in Eupen validiert.");
+    }
+
+        async function injectData() {
+        const data = {
+            Hours: parseFloat(document.getElementById('hrs').value),
+            Aircraft_ID: document.getElementById('plane').value,
+            FlightDate: new Date().toISOString()
+        };
+
+        // Statusmeldung im Terminal anzeigen
+        document.getElementById('status').innerText = "> INJECTION_STARTED: Sending to local server...";
+
+        try {
+            const response = await fetch('/SuperUser/Inject', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                document.getElementById('status').innerText = "> SUCCESS: Data written to Aviation.db. System clean.";
+                document.getElementById('status').style.color = "#00ff00";
+            } else {
+                document.getElementById('status').innerText = "> ERROR: Server rejected data validation.";
+                document.getElementById('status').style.color = "#ff0000";
+            }
+        } catch (err) {
+            document.getElementById('status').innerText = "> CRITICAL_FAILURE: Connection lost.";
+        }
+    }
+
+
+    
+
+    //geheimer Schlüssel
+    /*
+    let unlocked = false;
+    document.body.style.display = 'none'; // Versteckt alles sofort
+
+    document.addEventListener('keydown', function(e) {
+        // Kombination: Strg + Shift + J (für Janine)
+        if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+            let password = prompt("IDENTITÄTS-CHECK: Bitte Master-Key eingeben");
+            if (password === "Ariane2026!") {
+                unlocked = true;
+                document.body.style.display = 'block';
+                alert("> SYSTEM_UNLOCKED: Willkommen, Ariane.");
+            }
+        }
+    });*/
+
+
+
+
+</script>
+
+
+@{
+    Layout = "_Layout";
+}
+
+
+
+
+
+<div style="display: flex; flex-direction: column; height: 90vh; background: #000;">
+    <div id="terminal" style="flex: 1; padding: 20px; color: #0f0; font-family: 'Courier New', monospace; border-bottom: 2px solid #333;">
+        <h3>> _ROOT_ACCESS: LOGBOOK_INJECTION</h3>
+        <div style="margin-top: 20px;">
+            <div>STUNDEN (Hrs_Total): <input type="number" id="hrs" step="0.1" style="background: transparent; color: #0f0; border: 1px solid #0f0;" oninput="syncPreview()"></div>
+            <div style="margin-top: 10px;">FLUGZEUG (Aircraft_ID): <input type="text" id="plane" style="background: transparent; color: #0f0; border: 1px solid #0f0;" oninput="syncPreview()"></div>
+            <p id="status" style="margin-top: 20px; color: #888;">> System bereit für Injektion...</p>
+        </div>
+    </div>
+
+    <div id="preview" style="flex: 1; background: #fff; padding: 20px; border-radius: 20px 20px 0 0;">
+        <h4 style="color: #2c3e50;">Live Dashboard Vorschau</h4>
+        <div class="card" style="padding: 20px; border: none; background: #f8f9fa; border-radius: 15px;">
+            <h1 id="previewHrs" style="font-size: 3rem; color: #3498db;">0.0</h1>
+            <p>FLUGSTUNDEN REGISTRIERT</p>
+            <div style="width: 100%; background: #ddd; height: 10px; border-radius: 5px;">
+                <div id="bar" style="width: 0%; background: #3498db; height: 100%; border-radius: 5px; transition: 0.3s;"></div>
+            </div>
+            <h5 id="previewPlane" style="margin-top: 15px; color: #7f8c8d;">Flugzeug: -</h5>
+        </div>
+        <button onclick="injectData()" style="margin-top: 20px; width: 100%; padding: 15px; background: #2c3e50; color: #fff; border: none; border-radius: 10px; font-weight: bold;">
+            DATEN IN DIE AVIATION.DB SCHREIBEN
+        </button>
+    </div>
+</div>
+
+<!-- AdmindB Flight Logbook View Bereich-->
+<div id="log-list" style="margin-top: 30px; color: #fff; font-family: sans-serif;">
+    <table style="width: 100%; border-collapse: collapse; background: #1a1a1a;">
+        <thead style="border-bottom: 2px solid #0f0;">
+            <tr>
+                <th style="text-align: left; padding: 10px;">Datum</th>
+                <th style="text-align: left; padding: 10px;">ACID</th>
+                <th style="text-align: left; padding: 10px;">Hrs</th>
+                <th style="text-align: left; padding: 10px;">Aktion</th>
+            </tr>
+        </thead>
+        <tbody id="flightTableBody">
+        </tbody>
+    </table>
+</div>

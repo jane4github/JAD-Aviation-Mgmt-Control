@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Janine Servais";
+
+
+
+}
+
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- <p>Take Off here <a href="./landing.cshtml">Landing Page</a>.</p> -->
+
+@model List<janine_aviation.Models.MenuItem>
+<ul class="tree-menu">
+    @foreach (var item in Model)
+    {
+        <li>
+            <a href="@item.Url">@item.Title</a>
+
+            @if (item.Children != null && item.Children.Any())
+            {
+                <!-- Untermenü rendern -->
+                <ul>
+                    @foreach (var child in item.Children)
+                    {
+                        <li><a href="@child.Url">@child.Title</a></li>
+                    }
+                </ul>
+            }
+        </li>
+    }
+</ul>
+
+

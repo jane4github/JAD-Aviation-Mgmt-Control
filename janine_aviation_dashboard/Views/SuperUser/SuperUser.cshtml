@@ -1,0 +1,673 @@
+﻿@model janine_aviation.Pages.SuperuserModel
+@{
+    ViewData["Title"] = "JAD Console";
+}
+
+
+
+<div id="adminBody" style="display: block; background-color: #000; color: #0f0; font-family: 'Courier New', monospace; min-height: 100vh; padding: 20px;">
+
+    <div style="border: 1px solid #0f0; padding: 20px; border-radius: 5px;">
+        <h2>> J9S_AVIATION_ADMIN_UNLOCKED</h2>
+        <p>> Welcome, Janine. System ready for data injection.</p>
+        <hr style="border-color: #0f0;" />
+
+        <div class="row">
+            <div class="col-md-6" style="border-right: 1px solid #333;">
+                <h4>[LOGBOOK_INJECTION]</h4>
+                <div style="margin-top: 20px;">
+                    <div style="margin-bottom: 10px;">
+                        <input type="text" id="currentId" value="0" />
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        FLIGHT DATE____: <input type="text" id="_FlightDate" placeholder="e.g DD.MM.YYYY" style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        TOTAL HOURS____: <input type="text" id="_Hrs_total_Dual" placeholder="e.g TOTAL Hours Dual " step="0.1" style="background: transparent; color: #0f0; border: 1px solid #0f0;" oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        HRS ROTORCRAFT_: <input type="text" id="_Hrs_Rotorcraft" placeholder="e.g. Hours in Helicopter" style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        HRS PIC________: <input type="text" id="_Hrs_PIC_Received" placeholder="e.g. Time Pilot in Command" style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        HRS DAY________: <input type="text" id="_Cond_Day" placeholder="e.g. Condition Day " style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        HRS NIGHT______: <input type="text" id="_Cond_Night" placeholder="e.g. Condition Night " style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        HRS SOLO_______: <input type="text" id="_SOLO" placeholder="e.g. Solo " style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        XCountry_______: <input type="text" id="_Cond_XCountry" placeholder="e.g. Cross Country " style="background: transparent; color: #0f0; border: 1px solid #0f0;" oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        Landings Day___: <input type="text" id="_Lnd_Day" placeholder="e.g. Landing at Day " style="background: transparent; color: #0f0; border: 1px solid #0f0;" oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        Landings Night_: <input type="text" id="_Lnd_Night" placeholder="e.g. Landing at Night " style="background: transparent; color: #0f0; border: 1px solid #0f0;" oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        Sim_IFR________: <input type="text" id="_Sim_IFR" placeholder="e.g. Instr Rules " style="background: transparent; color: #0f0; border: 1px solid #0f0;" oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        AIRCRAFT ID____: <input type="text" id="_Aircraft_ID" placeholder="e.g. Aircraft UR42Heavy" style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        Flight_Route___: <input type="text" id="_Flight_Route" placeholder="e.g. Flightplan Route  " style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        Remarks________: <input type="text" id="_Remarks" placeholder="e.g. Pilot(s) Names " style="background: transparent; color: #0f0; border: 1px solid #0f0; " oninput="syncPreview()">
+                    </div>
+                    <button id="executeBtn" onclick="injectData()" style="background: #0f0; color: #000; border: none; padding: 10px 20px; font-weight: bold; cursor: pointer;">
+                        EXECUTE_INJECTION
+                    </button>
+                    
+                    <button id="loadFlightsBtn" onclick="loadFlights()" style="background: #0f0; color: #000; border: none; padding: 10px 20px; font-weight: bold; cursor: pointer;">
+                        Load Data
+                    </button>
+                    <p id="status" style="margin-top: 15px; color: #888;">> Waiting for input...</p>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="padding-left: 30px;">
+                <h4>[LIVE_PREVIEW]</h4>
+                <div id="previewCard" style="background: #111; padding: 20px; border-radius: 10px; border: 1px solid #333; margin-top: 20px;">
+                    <h1 id="previewHrs" style="font-size: 3rem; color: #3498db; margin: 0;">0.0</h1>
+                    <p style="color: #ccc;">FLUGSTUNDEN (Target: 215h)</p>
+
+                    <div style="width: 100%; background: #222; height: 15px; border-radius: 5px;">
+                        <div id="progressBar" style="width: 0%; background: #3498db; height: 100%; border-radius: 5px; transition: 0.5s;"></div>
+                    </div>
+                    <h5 id="previewAircraft" style="margin-top: 15px; color: #7f8c8d;">AIRCRAFT: -</h5>
+
+
+                <br />       
+                </div>
+                
+                <div class="col-md-6">
+                <h4>[SEARCH FIELD]</h4>
+                <div id="previewCard2" style="width: 170%; height: 150px; background: #111; padding: 20px; border-radius: 10px; border: 1px solid #333; margin-top: 20px;">
+                        <button type="Button" onclick="executeSearch()" class="search-btn" style="background: #0f0; color: #000; border: none; padding: 10px 20px; font-weight: bold; cursor: pointer;">
+                SEARCH
+            </button>
+            <input type="text" id="terminalSearchInput" class="terminal-input" placeholder="Date, Aircraft, Route, Remarks (Pilots)" size="45" /></div>
+            </div> 
+            </div>
+           
+            <div style="margin-top: 50px;">
+                <h4>[A5-101652 Aviation-LOGS]</h4>
+                <div class="table-responsive">
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 10px; color: #0f0;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid #0f0; text-align: left;">
+                                <th style="padding: 10px;">Datum</th>
+                                <th style="padding: 10px;">AirC_ID</th>
+                                <th style="padding: 10px;">Hrs_Dual</th>
+                                <th style="padding: 10px;">Hrs_Heli</th>
+                                <th style="padding: 10px;">Hrs_PIC</th>
+                                <th style="padding: 10px;">Hrs_Day</th>
+                                <th style="padding: 10px;">Hrs_Night</th>
+                                <th style="padding: 10px;">Hrs_SOLO</th>
+                                <th style="padding: 10px;">Hrs_XC</th>
+                                <th style="padding: 10px;">Lnd_Day</th>
+                                <th style="padding: 10px;">Lnd_Night</th>
+                                <th style="padding: 10px;">Sim_IFR</th>
+                                <th style="padding: 10px;">Route</th>
+                                <th style="padding: 10px;">Remarks</th>
+                                <th style="padding: 10px;">Aktion</th>
+                            </tr>
+                        </thead>
+                        <tbody id="flightLogTable">
+                        <div style="margin-top: 10px; display: flex; gap: 20px; align-items: center;">
+                                <button onclick="changePage('prev')" class="terminal-btn"> << BACK </button>
+                            <span id="pageInfo" style="color: lime;"> PAGE: 1 </span>
+                                <button onclick="changePage('next')" class="terminal-btn"> NEXT >> </button>
+                        </div>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+         //loadFlights();
+
+            /*
+            let unlocked = false;
+
+            // 1. HACKER-SCHUTZ: Key-Abfrage beim Laden
+            document.addEventListener('DOMContentLoaded', function() {
+                // Kombination: Strg + Shift + J
+                document.addEventListener('keydown', function(e) {
+                    if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+                        let password = prompt("IDENTITÄTS-CHECK: Bitte Master-Key eingeben");
+                        if (password === "Ariane2026!") {
+                            unlockSystem();
+                        } else {
+                            alert("ACCESS DENIED");
+                        }
+                    }
+                });
+            });
+
+            function unlockSystem() {
+                unlocked = true;
+                document.getElementById('adminBody').style.display = 'block';
+
+                // URL SÄUBERN (Passwort aus Adresszeile entfernen)
+                const cleanUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+                window.history.replaceState({path: cleanUrl}, '', cleanUrl);
+
+                loadFlights();
+            }*/
+
+
+
+            // 2. LIVE VORSCHAU SYNC
+
+
+
+            // 4. READ (LIST)
+
+
+            //const isAdmin = true; (Model.IsAuthorizedAdmin().ToString().ToLower());
+            /*
+            async function searchFlights(){
+                try {
+
+                                        const response = await fetch('/SuperUser/List');
+                                        const flights = await response.json();
+                                        const tableBody = document.getElementById('flightLogTable');
+                                        tableBody.innerHTML = '';
+                                        alert ("DATEN WERDEN GELADEN - Bitte Warten");
+                                        flights.forEach(f => {
+                                            tableBody.innerHTML += `
+                                                <tr style="border-bottom: 1px solid #333;">
+                                                       <button onclick='updateFlight(${JSON.stringify(f)})' style="background: transparent; color: #4169E1; border: 1px solid #4169E1; cursor: pointer;">UPDATE</button>
+                                                    <td style="padding: 10px;">${f.flightDate}</td>         <!-- 1 -->
+                                                    <td style="padding: 10px;">${f.aircraft_ID}</td>        <!-- 2 -->
+                                                    <td style="padding: 10px;">${f.hrs_total_Dual}</td>     <!-- 3 -->
+                                                    <td style="padding: 10px;">${f.hrs_Rotorcraft}</td>     <!-- 4 -->
+                                                    <td style="padding: 10px;">${f.hrs_PIC_Received}</td>   <!-- 5 -->
+                                                    <td style="padding: 10px;">${f.cond_Day}</td>           <!-- 6 -->
+                                                    <td style="padding: 10px;">${f.cond_Night}</td>         <!-- 7 -->
+                                                    <td style="padding: 10px;">${f.solo}</td>               <!-- 8 -->
+                                                    <td style="padding: 10px;">${f.cond_XCountry}</td>       <!-- 9 -->
+                                                    <td style="padding: 10px;">${f.lnd_Day}</td>          <!-- 10 -->
+                                                    <td style="padding: 10px;">${f.lnd_Night}</td>          <!-- 11 -->
+                                                    <td style="padding: 10px;">${f.sim_IFR}</td>             <!-- 12 -->
+                                                    <td style="padding: 10px;">${f.flight_Route}</td>           <!-- 13 -->
+                                                    <td style="padding: 10px;">${f.remarks}</td>           <!-- 14 -->
+                                                    <td style="padding: 10px;">
+                                                        <button onclick="purgeFlight(${f.id})" style="background: transparent; color: #ff0000; border: 1px solid #ff0000; cursor: pointer;">DELETE</button>
+                                                    </td>
+                                                </tr>`;
+                                              });
+                } catch (err) {
+                  console.error("Error loading flights:" , err);
+                }
+
+
+            }
+            */
+           let currentLogPage = 1;
+           /*
+           async function nextLogs()
+           {
+                currentLogPage++;
+                document.getElementById('pageInfo').innerText = "PAGE: " + currentLogPage;
+                await loadFlights(currentLogPage);
+            }
+
+            async function prevLogs() {
+                if (currentLogPage > 1) {
+                    currentLogPage--;
+                    document.getElementById('pageInfo').innerText = currentLogPage;
+                    await loadFlights(currentLogPage);
+                }
+            }*/
+           
+           async function changePage(direction) {
+
+                let nextStep = currentLogPage;
+
+                if (direction === 'next') {
+                    nextStep++;
+                } else if (direction === 'prev' && nextStep > 1) {
+                    nextStep--;
+                }
+
+                // High-Abstraction: Check the actual input field to decide the mode
+                const searchInput = document.getElementById('terminalSearchInput').value;
+
+                let success = false;
+                if (searchInput.trim() !== "") {
+                    // Mode: SEARCH - Keep the filter active
+                    currentSearchItem = searchInput;
+                    success = await searchFlights(nextStep);
+                } else {
+                    // Mode: NORMAL - Load the full logbook
+                    currentSearchItem = "";
+                    success = await loadFlights(nextStep);
+                }
+
+                // Only update the page counter if the database actually had data
+                if (success) {
+                    currentLogPage = nextStep;
+                    document.getElementById('pageInfo').innerText = "PAGE: " + currentLogPage;
+                }
+
+            }
+
+            
+
+            async function loadFlights(page=1){
+                try {
+
+                                        const response = await fetch(`/SuperUser/List?page=${page}`);
+                                        const flights = await response.json();
+                                        const tableBody = document.getElementById('flightLogTable');
+                                        document.getElementById('pageInfo').innerText = "PAGE: " + page;
+                                        //renderTableRows(flights);
+                                        tableBody.innerHTML = '';
+                                       // alert ("DATEN WERDEN GELADEN - Bitte Warten");
+                                       if(flights.length === 0 && page  > 1 )
+                                       {
+
+                                              currentLogPage--;
+                                              alert("KEINE WEITEREN DATENSÄTZE GEFUNDEN");
+                                              //loadFlights(1);
+                                              return;
+                                       }
+
+                                        flights.forEach(f => {
+                                            
+                                            tableBody.innerHTML += `
+                                                <tr style="border-bottom: 1px solid #333;">
+                                                       <button onclick='updateFlight(${JSON.stringify(f)})' style="background: transparent; color: #4169E1; border: 1px solid #4169E1; cursor: pointer;">UPDATE</button>
+                                                    <td style="padding: 10px;">${f.flightDate}</td>         <!-- 1 -->
+                                                    <td style="padding: 10px;">${f.aircraft_ID}</td>        <!-- 2 -->
+                                                    <td style="padding: 10px;">${f.hrs_total_Dual}</td>     <!-- 3 -->
+                                                    <td style="padding: 10px;">${f.hrs_Rotorcraft}</td>     <!-- 4 -->
+                                                    <td style="padding: 10px;">${f.hrs_PIC_Received}</td>   <!-- 5 -->
+                                                    <td style="padding: 10px;">${f.cond_Day}</td>           <!-- 6 -->
+                                                    <td style="padding: 10px;">${f.cond_Night}</td>         <!-- 7 -->
+                                                    <td style="padding: 10px;">${f.solo}</td>               <!-- 8 -->
+                                                    <td style="padding: 10px;">${f.cond_XCountry}</td>       <!-- 9 -->
+                                                    <td style="padding: 10px;">${f.lnd_Day}</td>          <!-- 10 -->
+                                                    <td style="padding: 10px;">${f.lnd_Night}</td>          <!-- 11 -->
+                                                    <td style="padding: 10px;">${f.sim_IFR}</td>             <!-- 12 -->
+                                                    <td style="padding: 10px;">${f.flight_Route}</td>           <!-- 13 -->
+                                                    <td style="padding: 10px;">${f.remarks}</td>           <!-- 14 -->
+                                                    <td style="padding: 10px;">
+                                                        <button onclick="purgeFlight(${f.id})" style="background: transparent; color: #ff0000; border: 1px solid #ff0000; cursor: pointer;">DELETE</button>
+                                                    </td>
+                                                </tr>`;
+                                              });
+
+                                        if(flights.length < 5 ) {
+                                            nextBtn.style.opacity = "0.5";
+                                            nextBtn.disabled = true
+                                            alert("ENDE DER DATENSÄTZE ERREICHT");
+                                        }else {
+                                            nextBtn.style.opacity = "1";
+                                            nextBtn.disabled = false;
+                                        }
+                                       
+                } catch (err) {
+                  console.error("Error loading flights:" , err);
+                }
+
+
+            }
+
+
+
+
+
+            function Hallo_Test() {
+                updateFlight();
+            }
+
+
+            function syncPreview() {
+                let hrs = document.getElementById('_Hrs_total_Dual').value || "0";
+                let Aircraft = document.getElementById('_Aircraft_ID').value || "-";
+                document.getElementById('previewHrs').innerText = hrs;
+                document.getElementById('previewAircraft').innerText = "AIRCRAFT: " + Aircraft;
+
+                let progress = (hrs / 215) * 100;
+                document.getElementById('progressBar').style.width = Math.min(progress, 100) + "%";
+            }
+
+            let = currentSearchItem = '';
+
+            async function executeSearch() {
+                const searchTerm = document.getElementById('terminalSearchInput');
+                currentSearchItem = searchTerm.value;
+
+                currentLogPage = 1; //reset page to 1 when new search is triggered
+                await searchFlights(1); //load first page of search results
+            }
+
+            async function searchFlights(page = 1){
+            
+                //Using the existing'Flight_Route' input as search field for simplicity
+                //const searchTerm = document.getElementById('terminalSearchInput').value;
+                const endpoint = currentSearchItem ?`/SuperUser/Search?query=${encodeURIComponent(currentSearchItem)}&page=${page}`:`/SuperUser/List?page=${page}`;
+
+
+                try {
+                    
+                    //const response = await fetch(`/SuperUser/search?query=${encodeURIComponent(searchTerm)}`);
+                    const response = await fetch(endpoint);
+
+                    const flights = await response.json();
+                    const tableBody = document.getElementById('flightLogTable');
+                  
+                    if (flights.length === 0){
+                                        alert("KEINE WEITEREN DATENSÄTZE GEFUNDEN");
+                    return false;
+
+                    }   
+
+                    document.getElementById('pageInfo').innerText = "PAGE: " + page;
+
+                    tableBody.innerHTML = ''; //clear current list
+                    flights.forEach(f => {
+                        tableBody.innerHTML += `
+                            <tr style="border-bottom: 1px solid #333;">
+                                   <button onclick='updateFlight(${JSON.stringify(f)})' style="background: transparent; color: #4169E1; border: 1px solid #4169E1; cursor: pointer;">UPDATE</button>
+                                <td style="padding: 10px;">${f.flightDate}</td>         <!-- 1 -->
+                                <td style="padding: 10px;">${f.aircraft_ID}</td>        <!-- 2 -->
+                                <td style="padding: 10px;">${f.hrs_total_Dual}</td>     <!-- 3 -->
+                                <td style="padding: 10px;">${f.hrs_Rotorcraft}</td>     <!-- 4 -->
+                                <td style="padding: 10px;">${f.hrs_PIC_Received}</td>   <!-- 5 -->
+                                <td style="padding: 10px;">${f.cond_Day}</td>           <!-- 6 -->
+                                <td style="padding: 10px;">${f.cond_Night}</td>         <!-- 7 -->
+                                <td style="padding: 10px;">${f.solo}</td>               <!-- 8 -->
+                                <td style="padding: 10px;">${f.cond_XCountry}</td>       <!-- 9 -->
+                                <td style="padding: 10px;">${f.lnd_Day}</td>          <!-- 10 -->
+                                <td style="padding: 10px;">${f.lnd_Night}</td>          <!-- 11 -->
+                                <td style="padding: 10px;">${f.sim_IFR}</td>             <!-- 12 -->
+                                <td style="padding: 10px;">${f.flight_Route}</td>           <!-- 13 -->
+                                <td style="padding: 10px;">${f.remarks}</td>           <!-- 14 -->
+                                <td style="padding: 10px;">
+                                    <button onclick="purgeFlight(${f.id})" style="background: transparent; color: #ff0000; border: 1px solid #ff0000; cursor: pointer;">DELETE</button>
+                                </td>
+                            </tr>`;
+                            
+                          });
+                          //document.getElementById('pageInfo').innerText = "PAGE: " + page;
+                          return true;
+                    }
+                    catch (err) {
+                      console.error("Error searching flights:" , err);  
+                    }
+
+            }
+            
+
+            // 3. CREATE (INJECT)
+            async function injectData() {
+
+                try
+                {
+
+                         if(document.getElementById('executeBtn').innerText === "CHANGE_SAVE")
+                         {
+                                    const idRaw = document.getElementById('currentId').value;
+
+                                    alert("ICH BIN BEIM UPDATEN ?");
+
+                                    var curId = document.getElementById('currentId').value; // bleibt text später int
+                                    var dateOfFlight = document.getElementById('_FlightDate').value; // bleibt text später date
+                                    var hoursVal = document.getElementById('_Hrs_total_Dual').value; // bleibt text später float
+                                    var hoursHeli = document.getElementById('_Hrs_Rotorcraft').value; // bleibt text später float
+                                    var HrsPICVal = document.getElementById('_Hrs_PIC_Received').value; // bleibt text später float
+                                    var HrsDay = document.getElementById('_Cond_Day').value; // bleibt text später float
+                                    var HrsNight = document.getElementById('_Cond_Night').value; // bleibt text später float
+                                    var HrsSolo = document.getElementById('_SOLO').value; // bleibt text später float
+                                    var HrsXC = document.getElementById('_Cond_XCountry').value; // bleibt text später float
+                                    var HrsSimIFR = document.getElementById('_Sim_IFR').value; // bleibt text später float
+                                    var aircraftVal = document.getElementById('_Aircraft_ID').value; // bleibt text
+                                    var Route = document.getElementById('_Flight_Route').value; // bleibt text
+                                    var remarksVal = document.getElementById('_Remarks').value; // bleibt text
+
+                                    alert("Check Auflistung inhalte: " + curId + " , " + dateOfFlight  + " , " + hoursVal  + " , " + hoursHeli +  " , " + aircraftVal + " , " + HrsPICVal + "," + HrsDay + "," + HrsNight + " , " +  HrsSolo  + " , " + HrsXC + " , " + HrsSimIFR  + " , "  +  Route  + " , " + remarksVal);
+                                    /*
+                                        const DWAR = parseInt(document.getElementById('_CurrentId'));
+                                        const lightDate = document.getElementById('_FlightDate');
+                                        const ircraft_ID = document.getElementById('_Aircraft_ID');
+                                        const rs_total_Dual = document.getElementById('_Hrs_total_Dual');
+                                        const emarks = document.getElementById('_Remarks');
+                                        */
+                                    //var iDWAR = Number(document.getElementById('currentId'));
+
+                                    const flightData = {
+                                    Id: parseInt(idRaw),
+                                    FlightDate: document.getElementById('_FlightDate').value,
+                                    Hrs_total_Dual: document.getElementById('_Hrs_total_Dual').value,
+                                    Hrs_Rotorcraft: document.getElementById('_Hrs_Rotorcraft').value,
+                                    Aircraft_ID: document.getElementById('_Aircraft_ID').value,
+                                    Hrs_PIC_Received: document.getElementById('_Hrs_PIC_Received').value,
+                                    Cond_Day: document.getElementById('_Cond_Day').value,
+                                    Cond_Night: document.getElementById('_Cond_Night').value,
+                                    SOLO: document.getElementById('_SOLO').value,
+                                    Cond_XCountry: document.getElementById('_Cond_XCountry').value,
+                                    Lnd_Day: document.getElementById('_Lnd_Day').value,
+                                    Lnd_Night: document.getElementById('_Lnd_Night').value,
+                                    Cond_XCountry: document.getElementById('_Cond_XCountry').value,
+                                    Sim_IFR: document.getElementById('_Sim_IFR').value,
+                                    Flight_Route: document.getElementById('_Flight_Route').value,
+                                    Remarks: document.getElementById('_Remarks').value};
+
+                                    //alert(" this : " + JSON.stringify(flightData));
+
+                                    //console.log("Sende finales Paket: ", JSON.stringify(flightData));
+                                    //alert(" this : " + flightData);
+                                    // Wir rufen deinen Update-Endpunkt auf*/
+                                    const RES = await fetch('/SuperUser/Update', {method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(flightData)});
+
+
+                                    if (RES.ok)
+                                    {
+                                        alert("Flug " + curId + " wurde erfolgreich aktualisiert");
+                                        location.reload(); //loadFlights(); // Tabelle neu laden, damit die Änderung sofort sichtbar ist
+                                    } else {
+                                        //alert("SERVER STATUS FEHLER: " + response.status);
+                                        const serverFehler = await RES.text();
+                                        alert("SERVER RESPONSE FEHLER: " + serverFehler);
+                                        }
+
+                            }
+
+                }
+                catch (error)
+                  {
+                         alert("Fehler beim Senden der Daten: " + error);
+                  }
+
+           try{
+
+                 if(executeBtn.innerText === "EXECUTE_INJECTION")
+                  {
+                                //alert("ICH BIN AM EXECUTEN! ");
+
+                                const getValue = (id) => {
+                                    const element = document.getElementById(id);
+                                    return element ? element.value : "null";
+                                    //alert("Converter GetValue: id = " + id + ", value = " + element);
+                                };
+                                const currentId = document.getElementById('currentId').value;
+                                alert("Converter INPUT: currentId = " + currentId);
+                                const data = {
+                                    Id: parseInt(currentId),
+                                    FlightDate:  document.getElementById('_FlightDate').value,
+                                    Hrs_total_Dual: document.getElementById('_Hrs_total_Dual').value,
+                                    Hrs_Rotorcraft: document.getElementById('_Hrs_Rotorcraft').value,
+                                    Aircraft_ID: document.getElementById('_Aircraft_ID').value,
+                                    Hrs_PIC_Received: document.getElementById('_Hrs_PIC_Received').value,
+                                    Cond_Day: document.getElementById('_Cond_Day').value,
+                                    Cond_Night: document.getElementById('_Cond_Night').value,
+                                    Cond_XCountry: document.getElementById('_Cond_XCountry').value,
+                                    Lnd_Day: document.getElementById('_Lnd_Day').value,
+                                    Lnd_Night: document.getElementById('_Lnd_Night').value,
+                                    Sim_IFR: document.getElementById('_Sim_IFR').value,
+                                    SOLO: document.getElementById('_SOLO').value,
+                                    Flight_Route: document.getElementById('_Flight_Route').value,
+                                    Remarks: document.getElementById('_Remarks').value,
+
+                            };
+
+                            alert("FEHLER: \n" + "Id: \n" + currentId + "FLightDate: \n" + _FlightDate + "Aircraft ID: " + " , "+ _Aircraft_ID + " , "  + " Hours Total: " + _Hrs_total_Dual + " , " + _Hrs_Rotorcraft + " , " + "Hours PIC: " + _Hrs_PIC_Received + " DAY " + _Cond_Day + " NIGHT " + _Cond_Night + " XC: " + _Cond_XCountry +  " Remarks: " + _Remarks);
+                            console.log("Converter OUTPUT",data);
+                            //alert("Converter OUTPUT: Data prepared for injection.");
+
+                            document.getElementById('status').innerText = "> INJECTING_DATA...";
+                            //alert("Converter STATUS: INJECTING_DATA...");
+                            try {
+                                const targetUrl = (data.Id && data.Id > 0) ? '/SuperUser/Update' : '/SuperUser/Inject';
+                                //alert("Converter TARGET URL: " + targetUrl);
+                                const response = await fetch('/SuperUser/Inject', {
+                                        //alert("Converter FETCH: Starting fetch to " + targetUrl);
+                                        method: 'POST',
+                                        //alert("Converter FETCH: Method set to POST");
+                                        headers: { 'Content-Type': 'application/json' },
+                                        //alert("Converter FETCH: Headers set to application/json");
+                                        body: JSON.stringify(data)
+                                        //alert("Converter FETCH: Body set to " + JSON.stringify(data));
+                                        //alert("Converter FETCH: Fetch request prepared.");
+                                    });
+
+                                if (response.ok)
+                                {
+
+                                    //alert("Converter RESPONSE: Server responded with OK.");
+                                    const msg = (data.Id && data.Id > 0) ? "> SUCCESS: Aviation.db updated (EDIT MODE)." : "> SUCCESS: Aviation.db updated (NEW ENTRY).";
+                                    //alert("Converter RESPONSE MESSAGE: " + msg);
+                                    document.getElementById('status').innerText = `>SUCCESS: ${msg}`; //nach speichern ID wieder 0
+                                    //alert("Converter STATUS UPDATED.");
+                                    //alert(msg);
+                                    //alert("Converter RESETTING edit_id to 0.");
+                                    document.getElementById('edit_id').value = "0";
+                                    //alert("Converter edit_id reset to 0.");
+                                    //"> SUCCESS: Aviation.db updated.";
+                                    //document.getElementById('status').style.color = "#00ff00";
+                                    alert("Converter RESPONSE: Server responded with OK. DATA Saved");
+
+                                    setTimeout(() => {
+                                        document.getElementById('status').style.color = "#00ff00";
+                                    }, 500);
+
+                                    loadFlights();
+                                    //alert("Converter: loadFlights() called.");
+                                } else {
+                                    document.getElementById('status').innerText = "> ERROR: Server rejected validation.";
+                                    //alert("Converter RESPONSE: Server rejected validation.");
+                                    document.getElementById('status').style.color = "#ff0000";
+                                  //  alert("Converter STATUS UPDATED: ERROR.");
+                                }
+                            }
+                                
+                            catch (err) {
+                                    document.getElementById('status').innerText = "> CRITICAL_FAILURE: No connection.";
+                                        //alert("Converter EXCEPTION: " + err);
+                                
+
+                                                            //else {
+                                 //         alert("MESS WITH THE BEST AND DIE LIKE THE REST!");
+                                  //}
+
+                             }
+                  } else {
+                                    document.getElementById('status').innerText = "> ERROR: Server rejected validation.";
+                                    //alert("Converter RESPONSE: Server rejected validation.");
+                                    document.getElementById('status').style.color = "#ff0000";
+                                  //  alert("Converter STATUS UPDATED: ERROR.");
+                   }
+
+               }
+               catch (err) {
+                                    document.getElementById('status').innerText = "> CRITICAL_FAILURE: No connection.";
+                                        //alert("Converter EXCEPTION: " + err);
+               }
+           }
+
+
+
+
+            // 5. DELETE (PURGE)
+            async function purgeFlight(id) {
+
+                        if(confirm("> DESTROY_DATA_ENTRY: Sind Sie sicher?")) {
+                        await fetch('/SuperUser/Purge/' + id, { method: 'DELETE' });
+                        loadFlights();
+                    }
+
+            }
+    /*
+                  // 2. Die neue Funktion für deinen [ TEST ] Button
+           function triggerSearch() {
+                    // Hol den Wert aus dem Eingabefeld (id: terminalSearchInput)
+
+                    var inputField = document.getElementById('terminalSearchInput');
+                    var searchId = inputField ? inputField.value : "";
+
+                    if (searchId) {
+                        // Seite mit dem Parameter neu laden
+                        window.location.href = '/SuperUser?searchId=' + encodeURIComponent(searchId);
+                    } else {
+                        alert("SYSTEM_ERROR: Keine Such-ID gefunden.");
+                    }
+                }*/
+
+
+           // 6. UPDATE (EDIT)
+            async function updateFlight(flight) {
+                try
+                {
+
+                            const btn = document.getElementById('executeBtn');
+                            btn.innerText = "CHANGE_SAVE";
+                            btn.style.backgroundColor = "orange"; // Orange Farbe für "Ändern"
+
+                            //document.getElementById('currentId').value = flight.id || flight.Id || "";
+                            document.getElementById('currentId').value = flight.id || flight.Id || "";
+                            document.getElementById('_FlightDate').value = flight.flightDate || flight.FlightDate || "";
+                            document.getElementById('_Aircraft_ID').value =  flight.aircraft_ID || flight.Aircraft_ID || "";
+                            document.getElementById('_Hrs_total_Dual').value = flight.hrs_total_Dual || flight.Hrs_total_Dual || "";
+                            document.getElementById('_Hrs_Rotorcraft').value = flight.hrs_Rotorcraft || flight.Hrs_Rotorcraft || "";
+                            document.getElementById('_Hrs_PIC_Received').value = flight.hrs_PIC_Received || flight.Hrs_PIC_Received || "";
+                            document.getElementById('_Cond_Day').value = flight.cond_Day || flight.Cond_Day || "";
+                            document.getElementById('_Cond_Night').value = flight.cond_Night || flight.Cond_Night || "";
+                            document.getElementById('_SOLO').value = flight.solo || flight.SOLO || "";
+                            document.getElementById('_Cond_XCountry').value = flight.cond_XCountry || flight.Cond_XCountry || "";
+                            document.getElementById('_Lnd_Day').value = flight.lnd_Day || flight.Lnd_Day || "";
+                            document.getElementById('_Lnd_Night').value = flight.lnd_Night || flight.Lnd_Night || "";
+                            document.getElementById('_Cond_XCountry').value = flight.cond_XCountry || flight.Cond_XCountry || "";
+                            document.getElementById('_Sim_IFR').value = flight.sim_IFR || flight.Sim_IFR || "";
+                            document.getElementById('_Flight_Route').value = flight.flight_Route || flight.Flight_Route || "";
+                            document.getElementById('_Remarks').value = flight.remarks || flight.Remarks || "";
+
+                }
+
+                
+
+                catch (error)
+                {
+                        console.error("Fehler beim Senden der Daten: " + error);
+                }
+
+            }
+
+             
+</script>

@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]
+    Datenschutzerklärung & Technische Dokumentation (DSGVO)
+</h1>
+
+<h2>1. Präambel und Funktionsweise</h2>
+<p>Diese Plattform dient ausschließlich der interdisziplinären Darstellung von flug- und luftfahrtrelevanten Daten im Stand-alone- oder lokalem Netzwerkbetrieb. Die Verarbeitung erfolgt nach dem Prinzip der Datenminimierung und der maximalen Nutzerautonomie.</p>
+
+<h2>
+    2. Art der verarbeiteten Daten
+</h2>
+<p>
+    Es werden flugrelevante Telemetriedaten (Sensordaten der Entitäten/Drohnen) sowie Pilotenstammdaten verarbeitet.
+    Sensordaten: Diese werden 1:1 (Read-Only) von der Sensorsteuerung übernommen.
+    Manuelle Daten: Für die Richtigkeit manuell korrigierter oder eingegebener Daten ist die jeweilige eingebende Person/Entität selbst verantwortlich.
+</p>
+<h2>3. Speicher- und Sicherheitskonzept (Privacy by Design)</h2>
+<p>
+    Lokale Datenhoheit: Die Speicherung erfolgt dezentral auf einem physischen USB-Speichermedium des Nutzers (SQLite-Datenbank).
+    Flüchtiges Hosting: Der zum Hosting genutzte IIS-Server (Win X64) dient als temporäres Fenster. Nach Beendigung der Sitzung oder Abziehen des Datenträgers verbleiben keine personenbezogenen Daten auf dem Host-System.
+    Schreibschutz & Integrität: Schreibzugriffe sind technisch strikt auf das „Autorengerät“ beschränkt. Dies wird über einen hardwaregebundenen SSL/TLS-Fingerprint validiert.
+    Verschlüsselung: Die Datenübertragung im Intranet/Tunnel erfolgt verschlüsselt. Eine Übertragung an unbeteiligte Dritte findet nicht statt.
+</p>
+
+<h2>4. Zugriff durch Dritte (Aufsicht/Gremium) </h2>
+<p>
+    Die Einsichtnahme durch berechtigte Dritte (Prüfer, Fluglehrer, Aufsichtsgremien) erfolgt ausschließlich:
+    Im Vier-Augen-Prinzip (unter Aufsicht des Dateneigentümers).
+    Über eine zentrale Anzeige (kein Download oder Kopie auf Endgeräte der Prüfer).
+    Gegebenenfalls über einen gesicherten VPN-Tunnel für reine Read-Only-Zwecke.
+</p>
+
+<h2>5. Haftungsausschluss und Eigenverantwortung</h2>
+<p>
+    Datensicherung: Die Gewährleistung für den Erhalt der Daten vor, während oder nach der Darstellung wird nicht übernommen. Jede Person/Entität ist für die physische oder digitale Sicherung (Backup) ihrer Daten selbst verantwortlich.
+    Drittanbieter: Für die zugrunde liegenden Infrastrukturen gelten ergänzend die Nutzungsbedingungen (TOS) und Datenschutzbestimmungen der jeweiligen Anbieter (z. B. Microsoft, SQLite, ngrok).
+</p>
+
+<h2>6. Betroffenenrechte</h2>
+<p>
+    Nutzer behalten jederzeit die volle Kontrolle über ihre SQLite-Datenbank. Da die Daten physisch auf dem Medium des Nutzers verbleiben, ist das Recht auf Löschung (Art. 17 DSGVO) und Datenübertragbarkeit (Art. 20 DSGVO) durch den Nutzer selbst jederzeit physisch ausübbar.
+</p>
+
+<h2> </h2>
+<p></p>
