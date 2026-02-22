@@ -1,7 +1,9 @@
 # JAD-Aviation-Mgmt-Control
 The Integrated AI Ecosystem for Flight Safety, Behavioral Monitoring, and Autonomous Intervention. Lead Architect: Jana Janine Servais AI Thought Partner &amp; Copilot: Gemini AI Project Milestone: 1.0.0-Alpha "LookOut"
+*
+---
 Disclaimer: Diese Architektur dient zu Forschungs- und Ausbildungszwecken. Für den Einsatz in der bemannten Luftfahrt ist eine behördliche Zulassung (z.B. EASA/LBA) nach DO-178C zwingend erforderlich.
-
+---
 
 # ✈️ JAD Pilot-Console: Das Ökosystem der nächsten Generation
 
