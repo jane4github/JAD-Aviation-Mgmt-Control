@@ -90,7 +90,7 @@ JAD.Console.AI
 ├── 02_CoPilots
 │   ├── Brain.cs                // Neural Core Logic    
 │   ├── VoiceInterface.cs       // Pilot-AI Interaction
-│   📂 JAD_JAG-C_Project_Root | JAD & JAG-C Forensik Copilot
+│   📂 JAD_JAG-C_Project_Root | JAD & JAG-C Forensik Party & Evidence Copilot
 │    ┣ 📂 Bin (Output / Build)
 ┃    ┣ 📄 JAD-Dashboard_Main.exe          <-- Dein Haupt-Interface (Copilot)
 ┃    ┣ 📄 J9S_Vault_Library.dll           <-- Verschlüsselungs-Logik (DPAPI)
