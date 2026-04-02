@@ -87,9 +87,34 @@ JAD.Console.AI
 │   ├── FlightPlanManager.cs
 │   └── RouteValidator.cs       // Comparison: Filed vs. Actual
 │
-├── 02_CoPilot
-│   ├── Brain.cs                // Neural Core Logic
-│   └── VoiceInterface.cs       // Pilot-AI Interaction
+├── 02_CoPilots
+│   ├── Brain.cs                // Neural Core Logic    
+│   ├── VoiceInterface.cs       // Pilot-AI Interaction
+│   📂 JAD_JAG-C_Project_Root | JAD & JAG-C Forensik Copilot
+│    ┣ 📂 Bin (Output / Build)
+┃    ┣ 📄 JAD-Dashboard_Main.exe          <-- Dein Haupt-Interface (Copilot)
+┃    ┣ 📄 J9S_Vault_Library.dll           <-- Verschlüsselungs-Logik (DPAPI)
+┃    ┣ 📄 JAD_Actio.db                    <-- SQLite Datenbank (Beweismittel)
+┃    ┣ 📂 J9Dashcam                       <-- "Visueller Arm" (Code J9S)
+┃    ┃   ┣ 📄 JAD-Dashboard_Core.exe        <-- Der Kamera-KI-Prozess
+┃    ┃   ┣ 📂 EvaVisionassets               <-- KI-Modelle & Gewichte (.onnx)
+┃    ┃   ┣ 📂 runtimes                      <-- Native Treiber (DirectML / ONNX)
+┃    ┃   ┣ 📄 OpenCvSharp.dll               <-- Bildverarbeitung
+┃    ┃   ┣ 📄 DirectML.dll                  <-- Hardware-Beschleunigung
+┃    ┃   ┗ 📄 Eva_Blackbox.txt              <-- Lokales KI-Logbuch
+┃    ┃
+┃    ├── 📂 Source (Code-Dateien)
+┃    ┃    ┣ 📄 Frm_Evidence.cs                 <-- Beweis-Management & Mercy-Protokoll
+┃    ┃    ┣ 📄 Frm_Settings.cs                 <-- PropertyGrid & Affiliate-Anbindung
+┃    ┃    ┣ 📄 J9S_Vault.cs                    <-- Tresor-Klasse für API-Keys
+┃    ┃    ┣ 📄 GoogleAIClient.cs               <-- Verifizierter Cloud-Handshake
+┃    ┃    ┗ 📄 JagLogger.cs                    <-- Zentrales Protokollsystem
+┃    ┃
+┃    ├── 📂 AppData (Versteckt / User-Profile)
+┃    ┃    ┗ 📄 JAD_J9S_Config.dat              <-- Der gepanzerte API-Key Vault
+┃    ┃
+┃    ┗ 📄 README.md                         <-- Dokumentation & System-Overview
+┃   
 │
 ├── 03_FailureRisk
 │   ├── AnomalyDetector.cs
@@ -99,9 +124,21 @@ JAD.Console.AI
 │   ├── TelemetryStream.cs      // High-Speed Data Ingest
 │   └── SensorFusion.cs         // Combined GPS + IMU Data
 │
-└── 05_CDM
-    ├── Scorer.cs               // Collateral Damage Scoring
-    └── TerrainAnalyzer.cs      // Geospatial Interface
+├── 05_CDM
+│    ├── Scorer.cs               // Collateral Damage Scoring
+│    └── TerrainAnalyzer.cs      // Geospatial Interface
+└─ ─Hardware AI controlled Hardware
+    ├ 📂 Dein_Hauptprojekt_Ordner
+     ┣ 📄 JAD_Main_Dashboard.exe (Dein Hauptprogramm)
+     ┣ 📄 JAD_J9S_Config.dat (Dein verschlüsselter Vault)
+     ┗ 📂 J9Dashcam  <-- Hier alles reinkopieren!
+        ┣ 📂 EvaVisionassets
+        ┣ 📂 runtimes
+        ┣ 📄 JAD-Dashboard_Core.exe
+        ┣ 📄 OpenCvSharp.dll
+        ┣ 📄 DirectML.dll
+        ┗ ... (alle anderen Dateien aus dem Hauptordner)
+
 ```
 ### 📂 AI Folder & DATA STRUCTURE
 ```
