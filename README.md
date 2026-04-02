@@ -127,17 +127,17 @@ JAD.Console.AI
 ├── 05_CDM
 │    ├── Scorer.cs               // Collateral Damage Scoring
 │    └── TerrainAnalyzer.cs      // Geospatial Interface
-└─ ─Hardware AI controlled Hardware
-    ├ 📂 Dein_Hauptprojekt_Ordner
-     ┣ 📄 JAD_Main_Dashboard.exe (Dein Hauptprogramm)
-     ┣ 📄 JAD_J9S_Config.dat (Dein verschlüsselter Vault)
-     ┗ 📂 J9Dashcam  <-- Hier alles reinkopieren!
-        ┣ 📂 EvaVisionassets
-        ┣ 📂 runtimes
-        ┣ 📄 JAD-Dashboard_Core.exe
-        ┣ 📄 OpenCvSharp.dll
-        ┣ 📄 DirectML.dll
-        ┗ ... (alle anderen Dateien aus dem Hauptordner)
+└─ ─ AI controlled Hardware
+    ├── 📂 JAD_Hauptprojekt_Ordner
+    ┣ 📄 JAD_Main_Dashboard.exe (Das Hauptprogramm)
+    ┣ 📄 JAD_J9S_Config.dat (Die verschlüsselte Vault)
+    ┗ 📂 J9Dashcam  <-- Hier die Cam AI | Inference
+       ┣ 📂 EvaVisionassets
+       ┣ 📂 runtimes
+       ┣ 📄 JAD-Dashboard_Core.exe
+       ┣ 📄 OpenCvSharp.dll
+       ┣ 📄 DirectML.dll
+       ┗ ... (alle anderen Dateien aus dem Hauptordner)
 
 ```
 ### 📂 AI Folder & DATA STRUCTURE
