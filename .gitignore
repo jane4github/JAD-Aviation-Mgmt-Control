@@ -416,3 +416,16 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+## VS2026 restrictions START
+
+# SQLite Datenbank-Dateien blockieren
+*.db
+*.db-wal
+*.db-shm
+
+# Komplette Build-Ausgaben ignorieren
+bin/
+obj/
+
+## VS2026 restrictions END
